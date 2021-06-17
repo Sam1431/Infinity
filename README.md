@@ -2,14 +2,7 @@
 
 # InfiniMacs
 
-[Install](#install) • [Documentation] • [FAQ] • [Screenshots] • [Contribute](#contribute)
-
-![Made with Doom Emacs](https://img.shields.io/github/tag/hlissner/doom-emacs.svg?style=flat-square&label=release&color=58839b)
-![Minimum Emacs version supported: 26.3](https://img.shields.io/badge/Emacs-26.3+-blueviolet.svg?style=flat-square&logo=GNU%20Emacs&logoColor=white)
-![Latest commit](https://img.shields.io/github/last-commit/hlissner/doom-emacs/develop?style=flat-square)
-![Build status: develop](https://img.shields.io/github/workflow/status/hlissner/doom-emacs/CI/develop?style=flat-square)
-[![Discord Server](https://img.shields.io/discord/406534637242810369?color=738adb&label=Discord&logo=discord&logoColor=white&style=flat-square)][Discord]
-[![Discourse server](https://img.shields.io/discourse/users?server=https%3A%2F%2Fdiscourse.doomemacs.org&logo=discourse&label=Discourse&style=flat-square&color=9cf)][Discourse]
+[Install](#install) • [Documentation] • [FAQ] • [Screenshots]
 
 ![Doom Emacs Screenshot](https://raw.githubusercontent.com/Sam1431/Infinity/main/core/screenshots/infinity-dashboard.png)
 
