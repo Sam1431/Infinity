@@ -25,9 +25,9 @@
   <img src="https://raw.githubusercontent.com/Sam1431/Infinity/main/core/screenshots/infinity-busy.png" align="left" />
 </a>
 
-> It is a story as old as time. A stubborn, shell-dwelling, and melodramatic
-> vimmer—envious of the features of modern text editors—spirals into
-> despair before he succumbs to the [dark side][evil-mode]. This is his config.
+> What happens when a Vimmer enters Emacs and 
+> makes it his ONLY Desktop environment ? THIS !!
+
 
 Doom is a configuration framework for [GNU Emacs] tailored for Emacs bankruptcy
 veterans who want less framework in their frameworks, a modicum of stability
