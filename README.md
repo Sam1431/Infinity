@@ -29,12 +29,9 @@
 > makes it his ONLY Desktop environment ? THIS !!
 
 
-Doom is a configuration framework for [GNU Emacs] tailored for Emacs bankruptcy
-veterans who want less framework in their frameworks, a modicum of stability
-(and reproducibility) from their package manager, and the performance of a hand
-rolled config (or better). It can be a foundation for your own config or a
-resource for Emacs enthusiasts to learn more about our favorite operating
-system.
+Infinity is a configuration framework for tailored for Emacs users 
+who want a solid - minimal base, you can also take snippets from this project to
+make your own config. As for me , I created it Just For Fun ( JFF - the only 
 
 Its design is guided by these mantras:
 
