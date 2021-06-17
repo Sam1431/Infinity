@@ -33,95 +33,44 @@ Infinity is a configuration framework for tailored for Emacs users
 who want a solid - minimal base, you can also take snippets from this project to
 make your own config. As for me , I created it Just For Fun ( JFF - the only 
 
-Its design is guided by these mantras:
+Some of its features are
 
-+ **Gotta go fast.** Startup and run-time performance are priorities. Doom goes
-  beyond by modifying packages to be snappier and load lazier.
-+ **Close to metal.** There's less between you and vanilla Emacs by design.
-  That's less to grok and less to work around when you tinker. Internals ought
-  to be written as if reading them were part of Doom's UX, and it is!
-+ **Opinionated, but not stubborn.** Doom is about reasonable defaults and
-  curated opinions, but use as little or as much of it as you like.
-+ **Your system, your rules.** You know better. At least, Doom hopes so! It
-  won't *automatically* install system dependencies (and will force plugins not
-  to either). Rely on `doom doctor` to tell you what's missing.
-+ **Nix/Guix is a great idea!** The Emacs ecosystem is temperamental. Things
-  break and they break often. Disaster recovery should be a priority! Doom's
-  package management should be declarative and your private config reproducible,
-  and comes with a means to roll back releases and updates (still a WIP).
++ **Its pretty fast** By some gc hacks and ":defer t"ing almost every package InfiniMacs keeps is startup time in-between 0.5 to 2 seconds
++ **Close to Vanilla.** There's less between you and vanilla Emacs by design. Its really minimal and uses completely vanilla packages
++ **Opinionated, but not Mandatory.** most of the packages are optionated , except for the core obviously
++ **Your system, your rules.** Only you know the best for your system and everything about Infinimacs is in your hand
   
-Check out [the FAQ][FAQ] for answers to common questions about the project.
-
 
 # Features
-- Minimalistic good looks inspired by modern editors.
-- Curated and sane defaults for many packages, (major) OSes, and Emacs itself.
-- A modular organizational structure for separating concerns in your config.
+- Inspired from Doom and SpaceMacs
+- Powered by Straight.el
+- A modular emacs config
 - A standard library designed to simplify your elisp bike shedding.
-- A declarative [package management system][package-management] (powered by
-  [straight.el]) with a command line interface. Install packages from anywhere,
-  not just (M)ELPA, and pin them to any commit.
-- Optional vim emulation powered by [evil-mode], including ports of popular vim
-  plugins like [vim-sneak], [vim-easymotion], [vim-unimpaired] and
-  [more][ported-vim-plugins]!
-- Opt-in LSP integration for many languages, using [lsp-mode] or [eglot]
-- Support for *many* programming languages. Includes syntax highlighting,
-  linters/checker integration, inline code evaluation, code completion (where
-  possible), REPLs, documentation lookups, snippets, and more!
-- Support for *many* tools, like docker, pass, ansible, terraform, and more.
 - A Spacemacs-esque [keybinding scheme][bindings], centered around leader
   and localleader prefix keys (<kbd>SPC</kbd> and <kbd>SPC</kbd><kbd>m</kbd> for
   evil users, <kbd>C-c</kbd> and <kbd>C-c l</kbd> for vanilla users).
-- A rule-based [popup manager][popup-system] to control how temporary buffers
-  are displayed (and disposed of).
-- Per-file indentation style detection and [editorconfig] integration. Let
-  someone else argue about tabs vs **_spaces_**.
-- Project-management tools and framework-specific minor modes with their own
-  snippets libraries.
-- Project search (and replace) utilities, powered by [ripgrep] and [ivy] or
-  [helm].
-- Isolated and persistent workspaces (also substitutes for vim tabs).
-- Support for Chinese and Japanese input systems.
-- Save a snapshot of your shell environment to a file for Emacs to load at
-  startup. No more struggling to get Emacs to inherit your `PATH`, among other
-  things.
 
 
 # Prerequisites
 + Git 2.23+
 + Emacs 26.3+ (*27.2 is recommended*, or [native-comp](https://www.emacswiki.org/emacs/GccEmacs)).
-+ [ripgrep] 11.0+
-+ GNU `find`
-+ *OPTIONAL:* [fd] 7.3.0+ (improves file indexing performance for some commands)
   
-Doom is comprised of [~150 optional modules][Modules], some of which may have
-additional dependencies. [Visit their documentation][Modules] or run `bin/doom
-doctor` to check for any that you may have missed.
+Infinity is comprised of [60 ish  modules][Modules], some of which may have
+additional dependencies. Pretty minimal , I guess ??
 
 
 # Install
 ``` sh
-git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-~/.emacs.d/bin/doom install
+git clone --depth 1 https://github.com/sam1431/Infinity ~/.emacs.d
 ```
 
-Then [read our Getting Started guide][getting-started] to be walked through
-installing, configuring and maintaining Doom Emacs.
+# Some of the options present in Infinity are :-
 
-It's a good idea to add `~/.emacs.d/bin` to your `PATH`! Other `bin/doom`
-commands you should know about:
-
-+ `doom sync` to synchronize your private config with Doom by installing missing
-  packages, removing orphaned packages, and regenerating caches. Run this
-  whenever you modify your private `init.el` or `packages.el`, or install/remove
-  an Emacs package through your OS package manager (e.g. mu4e or agda).
-+ `doom upgrade` to update Doom to the latest release & all installed packages.
-+ `doom doctor` to diagnose common issues with your system and config.
-+ `doom env` to dump a snapshot of your shell environment to a file that Doom
-  will load at startup. This allows Emacs to inherit your `PATH`, among other
-  things.
-+ `doom build` to recompile all installed packages (use this if you up/downgrade
-  Emacs).
++ `infinity/update-all` Update all packages added by use-package with straight.el
++ `infinity/desktop-restart` Restart EXWM , if using a Infinimacs as a desktop , r
++ `infinity/open-dashboard` Open Infinity Emacs Dashboard
++ `infinity/quit-dashboard` Close Infinity Emacs Dashboard
++ `infinity/update-package` Update a seperate package from message
 
 
 # Roadmap
