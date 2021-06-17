@@ -186,37 +186,6 @@ Doom is a labor of love and incurable madness, but I'm only one guy. Doom
 wouldn't be where it is today without your help. I welcome contributions of any
 kind!
 
-+ I :heart: pull requests and bug reports (see the [Contributing
-  Guidelines][contribute])!
-+ Don't hesitate to [tell me my Elisp-fu
-  sucks](https://github.com/hlissner/doom-emacs/issues/new), but please tell me
-  why.
-+ Hop on [our Discord server][Discord] and say hi! Help others, hang out or talk
-  to me about Emacs, gamedev, programming, physics, pixel art, anime, gaming --
-  anything you like. Nourish this lonely soul.
-+ If you'd like to support my work financially, buy me a drink through
-  [liberapay] or [paypal]. My work contends with studies, adventures in indie
-  gamedev and freelance work. Donations help me allocate more time to my Emacs
-  and OSS capers.
-
-
-[contribute]: docs/contributing.org
-[discord]: https://discord.gg/qvGgnVx
-[discourse]: https://discourse.doomemacs.org
-[documentation]: docs/index.org
-[faq]: https://discourse.doomemacs.org/t/doom-emacs-faq/45
-[getting-started]: docs/getting_started.org
-[install]: docs/getting_started.org#install
-[backtrace]: docs/getting_started.org#how-to-extract-a-backtrace-from-an-error
-[configuration]: docs/getting_started.org#configuring-doom
-[package-management]: docs/getting_started.org#package-management
-[bin/doom]: docs/getting_started.org#the-bindoom-utility
-[common-mistakes]: docs/getting_started.org#common-mistakes-when-configuring-doom-emacs
-[change-theme]: docs/faq.org#how-do-i-change-the-theme
-[change-font]: docs/faq.org#how-do-i-change-the-fonts
-[modules]: docs/modules.org
-[popup-system]: modules/ui/popup/README.org
-[screenshots]: https://github.com/hlissner/doom-emacs/tree/screenshots#emacsd-screenshots
 
 [bindings]: modules/config/default/+evil-bindings.el
 [editorconfig]: http://editorconfig.org/
