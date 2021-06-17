@@ -11,7 +11,7 @@
 [![Discord Server](https://img.shields.io/discord/406534637242810369?color=738adb&label=Discord&logo=discord&logoColor=white&style=flat-square)][Discord]
 [![Discourse server](https://img.shields.io/discourse/users?server=https%3A%2F%2Fdiscourse.doomemacs.org&logo=discourse&label=Discourse&style=flat-square&color=9cf)][Discourse]
 
-![Doom Emacs Screenshot](https://raw.githubusercontent.com/hlissner/doom-emacs/main/core/screenshots/infinity-dashboard.png)
+![Doom Emacs Screenshot](https://raw.githubusercontent.com/sam1431/doom-emacs/main/core/screenshots/infinity-dashboard.png)
 
 </div>
 
