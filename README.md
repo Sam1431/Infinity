@@ -22,7 +22,7 @@
 
 # Introduction
 <a href="http://ultravioletbat.deviantart.com/art/Yay-Evil-111710573">
-  <img src="https://raw.githubusercontent.com/hlissner/doom-emacs/screenshots/cacochan.png" align="right" />
+  <img src="https://raw.githubusercontent.com/Sam1431/Infinity/main/core/screenshots/infinity-busy.png" align="right" />
 </a>
 
 > It is a story as old as time. A stubborn, shell-dwelling, and melodramatic
